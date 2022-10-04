@@ -1,10 +1,15 @@
-#include <cassert>
+#include <assert.h>
+#include <stddef.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <time.h>
+
 #include "graphics.h"
 
 enum size 
 {
-    HORIZONTAL_SIZE = 800,
-    VERTICAL_SIZE= 600
+    HORIZONTAL_SIZE = 1024,
+    VERTICAL_SIZE= 980
 };
 
 enum state
