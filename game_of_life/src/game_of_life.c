@@ -8,8 +8,8 @@
 
 enum size 
 {
-    HORIZONTAL_SIZE = 1024,
-    VERTICAL_SIZE= 980
+    HORIZONTAL_SIZE = 800,
+    VERTICAL_SIZE= 600
 };
 
 enum state
